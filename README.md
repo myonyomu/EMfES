@@ -12,7 +12,7 @@ pandoc -d defaults.yaml
 
 ## Contribution
 ### If you can use git
-1. Fork it ( http://github.com//url/atodenaos )
+1. Fork it ( https://github.com/myonyomu/EMfES )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -20,11 +20,12 @@ pandoc -d defaults.yaml
 
 ### For "I can advice about static management but what's the git?"
 Please create new issue.
+https://github.com/myonyomu/EMfES/issues
 
 ## License
 MIT. But, only materials and copyrighted products of FFXIV follows FINAL FANTASY® XIV
-Materials Usage License. (https://support.na.square-enix.com/rule.php?id=5382&tag=authc)
+Materials Usage License. ( https://support.na.square-enix.com/rule.php?id=5382&tag=authc )
 
 ## Author
-@Myonyomu (Miyo Yoshimura)
+myonyomu (Miyo Yoshimura)
 https://twitter.com/myonyomu
