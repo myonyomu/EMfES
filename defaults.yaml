@@ -1,0 +1,6 @@
+input-files:
+  - src/TBD.md
+
+output-file: public/index.html
+
+template: src/resources/pandoc-template.html
