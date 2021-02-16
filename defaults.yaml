@@ -1,11 +1,14 @@
 input-files:
-  - src/TBD.md
+  - src/1_introduction.md
 
 output-file: docs/index.html
 
 template: src/resources/pandoc-template.html
 
+table-of-contents: true
+toc-depth: 3
+
 metadata:
-  title: EMfES
+  title: EMfES -Extreme Management for Eorzean Static-
   author:
     - myonyomu
