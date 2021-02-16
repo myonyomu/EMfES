@@ -5,6 +5,9 @@ output-file: docs/index.html
 
 template: src/resources/pandoc-template.html
 
+table-of-contents: true
+toc-depth: 3
+
 metadata:
   title: EMfES -Extreme Management for Eorzean Static-
   author:
