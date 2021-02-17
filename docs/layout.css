@@ -1,0 +1,17 @@
+body {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    padding: 0 !important;
+}
+
+.md2html-container {
+    padding-top: 60px !important;
+}
+
+nav {
+    padding-top: 60px;
+}
+
+ul {
+    list-style: none;
+}

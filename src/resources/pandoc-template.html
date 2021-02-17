@@ -41,6 +41,7 @@
       .md2html-container {
         max-width: 800px;
         margin: 0 auto;
+        padding: 24px;
       }
 
       .md2html-container>h1:first-child {
@@ -486,6 +487,14 @@
   </head>
 
   <body>
+    $if(toc)$
+    <div class="sidebar is-closed">
+      <button class="sidebar-toggle is-closed"><span>TOC</span></button>
+      <nav id="$idprefix$TOC">
+        $toc$
+      </nav>  
+    </div>
+    $endif$
     <div class="md2html-container">
       $for(include-before)$
       $include-before$
@@ -501,16 +510,12 @@
         $endif$
       </header>
       $endif$
-      $if(toc)$
-      <nav id="$idprefix$TOC">
-        $toc$
-      </nav>
-      $endif$
       $body$
       $for(include-after)$
       $include-after$
       $endfor$
     </div>
+    <script type="text/javascript" src="assets/side-nav.js"></script>
   </body>
 
   </html>

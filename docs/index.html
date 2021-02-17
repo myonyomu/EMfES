@@ -13,11 +13,14 @@
         white-space: pre;
       }
     </style>
-                <!-- Style for Markdown -->
+                <link rel="stylesheet" href="layout.css">
+        <link rel="stylesheet" href="assets/side-nav.css">
+        <!-- Style for Markdown -->
     <style>
       .md2html-container {
         max-width: 800px;
         margin: 0 auto;
+        padding: 24px;
       }
 
       .md2html-container>h1:first-child {
@@ -457,11 +460,9 @@
       </head>
 
   <body>
-    <div class="md2html-container">
-                  <header>
-        <h1 class="title">EMfES -Extreme Management for Eorzean Static-</h1>
-                      </header>
-                  <nav id="TOC">
+        <div class="sidebar is-closed">
+      <button class="sidebar-toggle is-closed"><span>TOC</span></button>
+      <nav id="TOC">
         <ul>
         <li><a href="#はじめに">はじめに</a>
         <ul>
@@ -471,7 +472,12 @@
         <li><a href="#本ドキュメントの構成">本ドキュメントの構成</a></li>
         </ul></li>
         </ul>
-      </nav>
+      </nav>  
+    </div>
+        <div class="md2html-container">
+                  <header>
+        <h1 class="title">EMfES -Extreme Management for Eorzean Static-</h1>
+                      </header>
             <h2 id="はじめに">はじめに</h2>
             <h3 id="それはきっとプレイスキルだけの問題ではない">それはきっとプレイスキルだけの問題ではない</h3>
             <blockquote>
@@ -520,6 +526,7 @@
             <h3 id="本ドキュメントの構成">本ドキュメントの構成</h3>
             <p>TBD: 本文構成考案中。整ってきたら書く。</p>
           </div>
+    <script type="text/javascript" src="assets/side-nav.js"></script>
   </body>
 
   </html>

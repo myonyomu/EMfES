@@ -8,6 +8,10 @@ template: src/resources/pandoc-template.html
 table-of-contents: true
 toc-depth: 3
 
+css:
+  - layout.css
+  - assets/side-nav.css
+
 metadata:
   title: EMfES -Extreme Management for Eorzean Static-
   author:

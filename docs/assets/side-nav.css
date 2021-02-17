@@ -1,0 +1,84 @@
+/*
+Sidebar slide-in-out effect (https://codepen.io/marijoha/pen/PNjZyW)
+Copyright (c) Mari Johannessen(@marijoha)
+Released under the MIT license
+http://opensource.org/licenses/mit-license.php
+*/
+
+.sidebar-toggle {
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(207, 207, 207);
+    transition: 0.5s;
+}
+
+.sidebar-toggle.is-closed {
+    margin-left: 17rem;
+}
+
+.sidebar.is-closed {
+    transform: translateX(-18rem);
+}
+
+
+.sidebar {
+    position: fixed;
+    z-index: 1;
+    width: 15rem;
+    height: 100vh;
+    margin-top: 0;
+    background-color: white;
+    border-right: 1px double rgb(207, 207, 207);
+    transition: 0.7s;
+}
+
+/*
+Three Pure CSS Button (https://codepen.io/salmancreation/pen/oqjbea)
+Copyright (c) salman(@salmancreation)
+Released under the MIT license
+http://opensource.org/licenses/mit-license.php
+*/
+
+.sidebar-toggle {
+    border-radius: 4px;
+    background-color: #2e2e30;
+    border: none;
+    margin: 2px;
+    padding: 4px;
+    width: 15rem;
+    height: 3rem;
+    transition: all 0.5s;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.sidebar-toggle span {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.sidebar-toggle span:after {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.sidebar-toggle:hover span {
+    padding-right: 25px;
+}
+
+.sidebar-toggle:hover span:after {
+    content: "«";
+    opacity: 1;
+    right: 0;
+}
+
+.sidebar-toggle.is-closed:hover span:after {
+    content: "»";
+}
