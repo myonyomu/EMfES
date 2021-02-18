@@ -1,0 +1,26 @@
+body {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    padding: 0 !important;
+}
+
+nav {
+    padding-top: 60px;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    border-top: 1px solid rgb(207, 207, 207);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+}
+
+/* override template */
+.md2html-container {
+    padding-top: 60px !important;
+}
