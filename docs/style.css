@@ -20,6 +20,11 @@ footer {
     font-size: 1.2rem;
 }
 
+.share {
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* override template */
 .md2html-container {
     padding-top: 60px !important;
