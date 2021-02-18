@@ -41,6 +41,7 @@
       .md2html-container {
         max-width: 800px;
         margin: 0 auto;
+        padding: 24px;
       }
 
       .md2html-container>h1:first-child {
@@ -486,6 +487,18 @@
   </head>
 
   <body>
+    $if(toc)$
+    <div class="sidebar is-closed">
+      <button class="sidebar-toggle is-closed">
+        <span>
+        <svg class="hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f4f4f4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f4f4f4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+      <nav id="$idprefix$TOC">
+        $toc$
+      </nav>  
+    </div>
+    $endif$
     <div class="md2html-container">
       $for(include-before)$
       $include-before$
@@ -500,17 +513,37 @@
         <p class="date">$date$</p>
         $endif$
       </header>
-      $endif$
-      $if(toc)$
-      <nav id="$idprefix$TOC">
-        $toc$
-      </nav>
+      <div class="share">
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+      </div>
       $endif$
       $body$
       $for(include-after)$
       $include-after$
       $endfor$
+      <footer>
+        <div>
+          <p>
+            <small>
+              This project uses Final Fantasy XIV ("FFXIV") materials such as art, text and logos in accordance to the following terms and conditions.
+              <a href="https://support.na.square-enix.com/rule.php?id=5382&tag=authc">https://support.na.square-enix.com/rule.php?id=5382&tag=authc</a>
+            </small>
+          </p>
+          <p><small>(C) SQUARE ENIX CO., LTD. All Rights Reserved.</small></p>
+        </div>
+        <div>
+          <p>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+              <img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" />
+            </a>
+            <small>この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">クリエイティブ・コモンズ 表示 - 非営利 4.0 国際 ライセンス</a>の下に提供されています。</small>
+          </p>
+        </div>
+      </footer>
     </div>
+    <script type="text/javascript" src="assets/side-nav.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
   </body>
 
   </html>

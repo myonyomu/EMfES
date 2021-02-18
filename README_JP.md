@@ -23,7 +23,7 @@ pandoc -d defaults.yaml
 https://github.com/myonyomu/EMfES/issues
 
 ## License
-MIT
+CC BY-NC 4.0
 
 FINAL FANTASY® XIVに関する著作物についての扱いのみ、
 Materials Usage License. ( https://support.na.square-enix.com/rule.php?id=5382&tag=authc )に従います。

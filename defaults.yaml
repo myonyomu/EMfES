@@ -8,7 +8,12 @@ template: src/resources/pandoc-template.html
 table-of-contents: true
 toc-depth: 3
 
+css:
+  - style.css
+  - assets/side-nav.css
+
 metadata:
   title: EMfES -Extreme Management for Eorzean Static-
-  author:
+  subtitle: 固定のための極マネジメント術
+  author-meta:
     - myonyomu
