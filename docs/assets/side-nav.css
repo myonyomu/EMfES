@@ -1,10 +1,3 @@
-/*
-Sidebar slide-in-out effect (https://codepen.io/marijoha/pen/PNjZyW)
-Copyright (c) Mari Johannessen(@marijoha)
-Released under the MIT license
-http://opensource.org/licenses/mit-license.php
-*/
-
 .sidebar-toggle {
     position: fixed;
     z-index: 1;
@@ -31,13 +24,6 @@ http://opensource.org/licenses/mit-license.php
     border-right: 1px double rgb(207, 207, 207);
     transition: 0.7s;
 }
-
-/*
-Three Pure CSS Button (https://codepen.io/salmancreation/pen/oqjbea)
-Copyright (c) salman(@salmancreation)
-Released under the MIT license
-http://opensource.org/licenses/mit-license.php
-*/
 
 .sidebar-toggle {
     border-radius: 4px;

@@ -23,7 +23,7 @@ Please create new issue.
 https://github.com/myonyomu/EMfES/issues
 
 ## License
-MIT. But, only materials and copyrighted products of FFXIV follows FINAL FANTASY® XIV
+CC BY-NC 4.0. But, only materials and copyrighted products of FFXIV follows FINAL FANTASY® XIV
 Materials Usage License. ( https://support.na.square-enix.com/rule.php?id=5382&tag=authc )
 
 ## Author
