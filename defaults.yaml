@@ -7,7 +7,7 @@ output-file: docs/index.html
 template: src/resources/pandoc-template.html
 
 table-of-contents: true
-toc-depth: 3
+toc-depth: 2
 
 css:
   - style.css
