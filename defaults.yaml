@@ -1,5 +1,6 @@
 input-files:
   - src/1_introduction.md
+  - src/fragments/about_management.md
 
 output-file: docs/index.html
 
